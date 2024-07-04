@@ -1,30 +1,71 @@
-# React + TypeScript + Vite
+# Google Meet Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Google Meet clone built using React, Vite, and WebRTC.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Demo](#demo)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Real-time video and audio communication
+- Mute/unmute microphone
+- Turn on/off camera
+- Screen sharing
+- Chat functionality
+- Responsive design
 
-- Configure the top-level `parserOptions` property like this:
+## Demo
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Check out the live demo: [Google Meet Clone Demo](https://your-demo-link.com)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+Make sure you have the following installed on your machine:
+
+- Node.js
+- npm or yarn
+
+### Installation
+
+1. Clone the repo
+
+   ```sh
+   git clone https://github.com/divy-koushik-mishra/gmeet-clone-webrtc.git
+
+   ```
+
+2. Install NPM packages
+
+    ```sh
+      cd gmeet-clone-webrtc
+      npm install
+    ```
+### Usage
+1. Start the development server
+      ```sh
+          npm run dev
+      ```
+2. Open your browser and navigate to http://localhost:3000
+
+### Technologies Used
+1. React: Front-end JavaScript library
+1. Vite: Next Generation Frontend Tooling
+1. WebRTC: Real-Time Communication API
+1. Tailwind CSS: Utility-first CSS framework
+1. Remix Icons: A set of open-source icons
+### Contributing
+ Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
